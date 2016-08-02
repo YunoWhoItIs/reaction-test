@@ -1,0 +1,88 @@
+body, h1, h2, p
+	{ margin:0
+	; padding:0 }
+
+body, h1, h2, p, a, input, textarea
+	{ font-family:Calibri, sans serif }
+
+body
+	{ font-size:1.2em }
+
+#wrapper
+	{ margin:auto
+	; width:90% }
+
+#stat-block
+	{ margin:auto
+	; width:100%
+	; border-bottom:3px solid #111 }
+
+#stat-block h1
+	{ margin:30px auto 40px
+	; font-size:4em
+	; font-weight:normal
+	; text-align:center }
+
+#stat-block p
+	{ margin:20px auto 20px
+	; font-size:2em
+	; text-align:center }
+
+#stat-reset
+	{ display:block
+	; margin:20px auto 20px
+	; width:30%
+	; font-size:1.5em
+	; text-align:center
+	; text-decoration:none
+	; border:1px solid #111
+	; color:#111 }
+
+#stat-reset:hover
+	{ background-color:#ddd }
+
+#stat-round
+	{ margin-right:50px }
+
+#string-display
+	{ margin:auto
+	; width:100%
+	; height:300px
+	; text-align:center }
+
+#string-display p
+	{ margin:50px auto
+	; font-size:10em }
+
+#input-block
+	{ margin:auto
+	; width:100% }
+
+input, textarea
+	{ box-sizing:border-box
+	; -ms-box-sizing:border-box
+	; -moz-box-sizing:border-box
+	; -webkit-box-sizing:border-box
+	; border:1px solid #111 }
+
+#input-block input
+	{ margin:10px auto
+	; display:block
+	; width:30%
+	; font-size:1.5em
+	; background-color:#fff }
+
+#input-submit
+	{ color:#111 }
+
+#input-submit:hover
+	{ background-color:#ddd }
+
+#information-block
+	{ margin:40px auto
+	; padding-top:30px
+	; width:100%
+	; border-top:3px solid #111 }
+
+#information-block p
+	{ margin:auto 10% 20px }

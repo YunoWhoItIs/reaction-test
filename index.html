@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Reaction test</title>
+
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header id="stat-block">
+				<h1>Reaction test</h1>
+
+				<a id="stat-reset" href="index.html">Restart</a>
+
+				<p>Round: <span id="stat-round"></span>Speed: <span id="stat-speed"></span>ms</p>			
+			</header>
+
+			<div id="string-display">
+				<p></p>
+			</div>
+
+			<section id="input-block">
+				<input type="text" name="input-numbers" id="input-numbers"/>
+
+				<input type="button" name="input-submit" id="input-submit" value="Submit"/>
+			</section>
+
+			<section id="information-block">
+				<p>
+					This facility tests your reactions. A sequence of characters will be displayed per round, only once. 
+					Numbers have been placed within these sequences. Your task is to enter the numbers you see into the box above. 
+					There are 10 rounds after which your score will be displayed. The speed increases in successive rounds.
+				</p>
+
+				<p>
+					Please input numbers without spaces. If you see 7 then 4, then you would simply enter 74 into the box.
+				</p>
+
+				<p>
+					Press F5 to start from the beginning.
+				</p>
+			</section>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
